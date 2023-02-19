@@ -10,6 +10,12 @@
 For use with the Stylus browser extension, since Dark Reader is slow on the giant single page spec.
 */
 
+@-moz-document domain("registry.khronos.org") {
+
+/* 
+For use with the Stylus browser extension, since Dark Reader is slow on the giant single page spec.
+*/
+
 html,
 body,
 input,
@@ -184,4 +190,5 @@ pre.rouge .o {
 .vuid {
   color: #9fb7e6;
   font-family: monospace;
+}
 }

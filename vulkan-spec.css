@@ -6,10 +6,6 @@
 @updateURL	https://raw.githubusercontent.com/lilly-lizard/vulkan-spec-dark-theme/main/vulkan-spec.css
 ==/UserStyle== */
 
-/* 
-For use with the Stylus browser extension, since Dark Reader is slow on the giant single page spec.
-*/
-
 @-moz-document domain("registry.khronos.org") {
 
 /* 

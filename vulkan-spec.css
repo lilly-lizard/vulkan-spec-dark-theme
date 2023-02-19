@@ -1,0 +1,179 @@
+/* 
+For use with the Stylus browser extension, since Dark Reader is slow on the giant single page spec.
+*/
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+    background-color: #202020 !important;
+    border-color: #7f796d;
+    color: #ffffff;
+}
+a {
+    color: #83b7ee;
+    background-color: transparent;
+}
+a:hover {
+    color: #aabdca;
+}
+h1,
+h2,
+h3,
+#toctitle,
+.sidebarblock > .content > .title,
+h4,
+h5,
+h6 {
+    color: white !important;
+}
+.sidebarblock {
+    border-color: rgb(90, 85, 77);
+    background-color: #202020;
+    color: white;
+}
+.subheader,
+.admonitionblock td.content > .title,
+.audioblock > .title,
+.exampleblock > .title,
+.imageblock > .title,
+.listingblock > .title,
+.literalblock > .title,
+.stemblock > .title,
+.openblock > .title,
+.paragraph > .title,
+.quoteblock > .title,
+table.tableblock > .title,
+.verseblock > .title,
+.videoblock > .title,
+.dlist > .title,
+.olist > .title,
+.ulist > .title,
+.qlist > .title,
+.hdlist > .title {
+    color: rgb(252, 236, 207);
+}
+.purple {
+    color: #ce8ace;
+}
+table {
+    border-color: #726c61;
+}
+::placeholder {
+    color: #f4e5c8;
+}
+::selection {
+    background-color: #4479b5;
+    color: #ffffff;
+}
+::-moz-selection {
+    background-color: #4479b5;
+    color: #ffffff;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #777631 !important;
+    color: #ffffff !important;
+}
+.literalblock pre,
+.listingblock pre:not(.highlight),
+.listingblock pre[class="highlight"],
+.listingblock pre[class^="highlight "],
+.listingblock pre.CodeRay,
+.listingblock pre.prettyprint {
+    background-color: #393939;
+}
+pre,
+pre > code {
+    color: rgb(232, 218, 186);
+}
+.CodeRay .reserved,
+.CodeRay .keyword {
+    color: rgb(250, 255, 231);
+}
+code {
+  color: rgb(255, 180, 126);
+}
+table tr th,
+table tr td {
+    color: rgb(252, 236, 207);
+}
+table tr.even,
+table tr.alt,
+table tr:nth-of-type(2n) {
+    background-color: #3b3b3b;
+}
+table thead,
+table tfoot {
+    background-color: #5e5e5e;
+}
+table thead tr th,
+table thead tr td,
+table tfoot tr th,
+table tfoot tr td {
+    color: rgb(252, 236, 207);
+}
+table {
+    background-color: #2d2d2d;
+    background-image: none;
+    border-color: rgb(106, 100, 81);
+}
+#footer-text {
+    color: rgb(255, 255, 255);
+}
+li.current {
+  background-color: hsl(0, 0%, 18%);
+}
+li > p > a[id^="VUID-"]::before {
+    background-color: #3c3c3c;
+}
+#toc.toc2,
+div.searchbox {
+    color: #ffffff;
+    background-color: #202020;
+    border-color: rgb(90, 85, 77);
+}
+.admonitionblock > table td.content {
+    color: rgb(252, 236, 207);
+}
+.admonitionblock td.icon .icon-note::before {
+    color: rgb(252, 236, 207);
+}
+
+/* code background */
+pre.rouge {
+  background-color: #171717;
+}
+
+/* code keywords */
+pre.rouge .k, pre.rouge .kv {
+  color: #d56e55;
+  font-weight: bold;
+}
+
+/* code types */
+pre.rouge .kt {
+  color: #5568a2;
+  font-weight: bold;
+}
+
+/* code struct names */
+pre.rouge .nc {
+  color: #8ebae1;
+  font-weight: bold;
+}
+
+/* code operators */
+pre.rouge .o {
+  color: rgb(232, 218, 186);
+  font-weight: bold;
+}
+
+/* vuid */
+.vuid {
+  color: #9fb7e6;
+  font-family: monospace;
+}

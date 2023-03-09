@@ -185,4 +185,9 @@ pre.rouge .o {
   color: #9fb7e6;
   font-family: monospace;
 }
+
+
+.exampleblock > .content {
+  background: #202020;
+}
 }

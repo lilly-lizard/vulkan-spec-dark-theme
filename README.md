@@ -1,6 +1,8 @@
 # Vulkan Spec Dark theme
 
-Use with Stylus for urls beginning with registry.khronos.org/vulkan/specs/
+Use with the [Stylus](https://github.com/openstyles/stylus) browser extension for urls beginning with `registry.khronos.org/vulkan/specs/`.
+
+Once the extension is installed, you can install this style from [userstyles.world](https://userstyles.world/style/8655/vulkan-spec-dark-theme-khronos).
 
 ![Dark theme](/dark-vulkan-theme-screenshot.png)
 
